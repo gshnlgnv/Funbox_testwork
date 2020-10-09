@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1280px;
+    height: 680px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 5e-05) 49.88%, rgba(0, 0, 0, 0.5) 100%), url("../assets/Pattern.png");
+}
+
+.main__title {
+    width: 1120px;
+    height: 44px;
+    top: 36px;
+    left: 80px;
+    right: 80px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 36px;
+    line-height: 42.19px;
+    text-align: center;
+    /*color: #FFFFFF;*/
+    margin-bottom: 24px;
+    margin-top: 36px;
+    color: #FFFFFF;
+}
+
+.main__wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.main__cats_types {
+    display: flex;
+    width: 1120px;
+    justify-content: space-between;
+}
