@@ -7,37 +7,54 @@
 }
 
 .wrapper {
-    max-width: 1280px;
-    height: 680px;
+    height: 100vh;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 5e-05) 49.88%, rgba(0, 0, 0, 0.5) 100%), url("../assets/Pattern.png");
-}
-
-.main__title {
-    width: 1120px;
-    height: 44px;
-    top: 36px;
-    left: 80px;
-    right: 80px;
-    font-family: 'Exo 2', sans-serif;
-    font-size: 36px;
-    line-height: 42.19px;
-    text-align: center;
-    /*color: #FFFFFF;*/
-    margin-bottom: 24px;
-    margin-top: 36px;
-    color: #FFFFFF;
 }
 
 .main__wrapper {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    align-content: center;
-    justify-content: center;
+}
+
+.main__title {
+    width: 1120px;
+    height: 44px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 36px;
+    line-height: 42.19px;
+    text-align: center;
+    margin-bottom: 24px;
+    margin-top: 36px;
+    color: #FFFFFF;
 }
 
 .main__cats_types {
     display: flex;
     width: 1120px;
     justify-content: space-between;
+}
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+
+    .main__cats_types {
+        display: flex;
+
+        justify-content: space-between;
+        flex-direction: row;
+    }
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+
+    .main__cats_types {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
 }

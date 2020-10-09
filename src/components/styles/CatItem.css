@@ -10,6 +10,7 @@
     height: 480px;
     overflow: hidden;
     background-color: #FFFFFF;
+    cursor: pointer;
 }
 
 .main__item__picture_red {
@@ -19,6 +20,7 @@
     height: 480px;
     overflow: hidden;
     background-color: #FFFFFF;
+    cursor: pointer;
 }
 
 .item__text1 {
@@ -66,17 +68,6 @@
     margin-top: 49px;
 }
 
-.main__item__bottomtext {
-    text-align: center;
-    margin-top: 14px;
-    font-family: "Trebuchet MS";
-    font-weight: normal;
-    font-style: normal;
-    font-size: 13px;
-    line-height: 15px;
-    text-align: center;
-}
-
 .circle {
     position: absolute;
     display: flex;
@@ -103,4 +94,33 @@
 .circle_kg {
     font-size: 21px;
     margin-top: 10px;
+}
+
+.bottom {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.main__item__bottomtext {
+    margin-top: 14px;
+    font-family: "Trebuchet MS";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.bottom__buy {
+    margin-top: 14px;
+    font-family: "Trebuchet MS";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #1698D9;
+    margin-left: 5px;
+    border-bottom-style: dashed;
+    cursor: pointer;
 }
